@@ -1,0 +1,290 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#mainframe{
+	height: 838px;
+	width: 100%;
+	background-color: white;
+	padding: 0px;
+}
+#header{
+	height: 83px;
+	width: 100%;
+	background-color: rgba(10, 10, 250, 0.5);
+}
+#fb{
+	margin-top: 24px;
+	margin-left: 185px;
+	float: left;
+	font-size: 44px;
+	font-weight: 900;
+	color: white;
+	font-family: calibri;
+}
+.title{
+	color: white;
+	font-family: calibri;
+}
+.ftr{
+	color: #C2C4C3;
+}
+#eml{
+	float: left;
+	margin-left: 400px;
+	margin-top: 15px;
+}
+#pswd{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+#lgn{
+	float: left;
+	margin-top: 31px;
+	margin-left: 10px;
+}
+#lgn input {
+	background-color: #9A9AE3;
+	padding: 2px;
+	color: white;
+	font-weight: bold;
+}
+#lgn input:hover{
+	cursor: pointer;
+}
+
+
+/* Main starts */
+
+
+#left{
+	height: 583px;
+	width: 54%;
+	background-color: #E4E4F5;
+	float: left;
+}
+/*#tx1{
+	margin-top: 40px;
+	margin-left: 350px;
+}
+#txt1{
+	font-family: verdana;
+	font-size: 14px;
+	color: black;
+}
+#tx2{
+	margin-left: 350px;
+}
+#txt2{
+	color: gray;
+	font-size: 14px;
+}*/
+#right{
+	height: 583px;
+	width: 46%;
+	background-color: #E4E4F5;
+	float: right;
+}
+#sgnup{
+	color: black;
+	font-family: calibri;
+	font-size: 40px;
+	font-weight: 800;
+	margin-left: 2px;
+}
+#free{
+	color: black;
+	font-family: helvetica;
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-left: 2px;
+}
+#fname{
+	float: left;
+	margin-left: 2px;
+}
+#fname input{
+	height: 38px;
+	width: 210px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	font-family: calibri;
+	font-size: 22px;
+	text-indent: 7px;
+}
+#lname{
+	float: left;
+	margin-left: 6px;
+}
+#lname input{
+	height: 38px;
+	width: 210px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	font-family: calibri;
+	font-size: 22px;
+	text-indent: 7px;
+}
+#emal{
+	float: left;
+	margin-left: 2px;
+}
+#emal input{
+	height: 38px;
+	width: 430px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	font-family: calibri;
+	font-size: 22px;
+	text-indent: 7px;
+	margin-top: 10px;
+}
+#renter{
+	float: left;
+	margin-left: 2px;
+}
+#renter input{
+	height: 38px;
+	width: 430px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	font-family: calibri;
+	font-size: 22px;
+	text-indent: 7px;
+	margin-top: 10px;
+}
+#nwpswd{
+	float: left;
+	margin-left: 2px;
+}
+#nwpswd input{
+	height: 38px;
+	width: 430px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	font-family: calibri;
+	font-size: 22px;
+	text-indent: 7px;
+	margin-top: 10px;
+}
+#btday{
+	font-family: helvetica;
+	font-size: 18px;
+	font-weight: none;
+}
+#selection{
+	margin-top: 7px;
+	float: left;
+}
+.slct{
+	height: 28px;
+	width: 69px;
+}
+#why{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#whyy{
+	color: blue;
+	font-family: helvetica;
+	font-size: 11px;
+}
+#why span:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+#radio{
+	margin-left: 7px;
+}
+#policies{
+	margin-left: 3px;
+	margin-top: 10px;
+}
+#policy{
+	color: gray;
+	font-size: 12px;
+	font-family: calibri;
+}
+#sgnup{
+	margin-top: 25px;
+}
+#sgnup input{
+	height: 30px;
+	width: 200px;
+	background-color: #399158;
+	border-radius: 7px;
+	border-top: 1px solid white;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+#sgnup input:hover{
+	background-color: #4C9164;
+	cursor: pointer;
+}
+#hr{
+	margin-top: 25px;
+	width: 70%;
+}
+#create{
+	margin-top: 3px;
+}
+#crte a{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 13px;
+}
+#for{
+	color: gray;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 13px;
+}
+#lan{
+	margin-left: 200px;
+	background-color: white;
+	line-height: 40px;
+}
+#languages{
+	font-size: 14px;
+	color: blue;
+	padding: 10px;
+}
+#languages a{
+	text-decoration: none;
+	padding-top: 10px;
+}
+#languages a:hover{
+	text-decoration: underline;
+}
+#table{
+	margin-top: 5px;
+	margin-left: 200px;
+}
+#table td{
+	height: 25px;
+	width: 78px;
+}
+#table td a{
+	text-decoration: none;
+	font-size: 13px;
+}
+#table td a:hover{
+	text-decoration: underline;
+}
+#lssst{
+	color: gray;
+	font-size: 13px;
+}
+#lssst1{
+	text-decoration: none;
+	color: blue;
+	font-size: 13px;
+}
+#lssst1 a:hover{
+	text-decoration: underline;
+}
